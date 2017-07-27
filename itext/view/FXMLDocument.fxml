@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="555.0" prefWidth="484.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="itext.controller.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="409.0" layoutY="506.0" onAction="#handleButtonAction" text="Finalizar" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="name" layoutX="14.0" layoutY="45.0" prefHeight="25.0" prefWidth="455.0" promptText="Nome" />
+      <TextField fx:id="email" layoutX="14.0" layoutY="80.0" prefHeight="25.0" prefWidth="455.0" promptText="e-mail" />
+      <TextField fx:id="phone" layoutX="15.0" layoutY="115.0" prefHeight="25.0" prefWidth="455.0" promptText="Telefone" />
+      <TextField fx:id="img" layoutX="14.0" layoutY="147.0" prefHeight="25.0" prefWidth="455.0" promptText="Nome da Imagem" />
+      <TextArea fx:id="description" layoutX="14.0" layoutY="205.0" prefHeight="87.0" prefWidth="455.0" />
+      <Label layoutX="14.0" layoutY="180.0" text="Descrição:" textFill="#868282">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="14.0" text="&quot;Fazedor&quot; de Currículos" textFill="#808080">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="405.0" text="Experiências:" textFill="#868282">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="abilityDescription2" layoutX="122.0" layoutY="467.0" prefHeight="25.0" prefWidth="355.0" />
+      <TextField fx:id="abilityDescription1" layoutX="122.0" layoutY="432.0" prefHeight="25.0" prefWidth="355.0" />
+      <TextField fx:id="ability1" layoutX="14.0" layoutY="432.0" prefHeight="25.0" prefWidth="100.0" />
+      <TextField fx:id="ability2" layoutX="14.0" layoutY="467.0" prefHeight="25.0" prefWidth="100.0" />
+      <Label layoutX="18.0" layoutY="304.0" text="Formação:" textFill="#868282">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="formation1" layoutX="17.0" layoutY="329.0" prefHeight="25.0" prefWidth="455.0" />
+      <TextField fx:id="formation2" layoutX="18.0" layoutY="365.0" prefHeight="25.0" prefWidth="455.0" />
+    </children>
+</AnchorPane>
